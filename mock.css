@@ -181,20 +181,12 @@ a[href="/channels/@me"] [class*="childWrapper_"] > svg {
   height: calc(100% - 14px) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25) !important;
-  display: flex !important;
-  flex-direction: column !important;
 }
 
 .container__2637a,
 [class*="sidebar_"] > [class*="container_"],
 [class*="sidebar_"] > nav {
-  background-color: transparent !important;
-  flex: 1 1 auto !important;
-  min-height: 0 !important;
-  height: auto !important;
-  display: flex !important;
-  flex-direction: column !important;
-  overflow: hidden !important;
+  background: transparent !important;
 }
 
 .sidebar_a4d4d9 ::-webkit-scrollbar,
@@ -219,13 +211,12 @@ a[href="/channels/@me"] [class*="childWrapper_"] > svg {
 }
 
 [class*="sidebar_"] [class*="scroller_"] {
-  flex: 1 1 auto !important;
-  min-height: 0 !important;
+  padding-bottom: 85px !important;
 }
 
 .header__29444 {
+  background-color: var(--mock-bg-sidebar) !important;
   border-bottom: 1px solid var(--mock-border-subtle) !important;
-  flex-shrink: 0 !important;
 }
 
 .containerDefault__29444 .wrapper__29444 {
@@ -258,11 +249,8 @@ a[href="/channels/@me"] [class*="childWrapper_"] > svg {
 
 .panels_a4d4d9,
 [class*="panels_"] {
-  background-color: var(--mock-bg-sidebar) !important;
+  background-color: #17181a !important;
   border-top: 1px solid var(--mock-border) !important;
-  flex-shrink: 0 !important;
-  flex-grow: 0 !important;
-  position: relative !important;
   z-index: 10 !important;
 }
 

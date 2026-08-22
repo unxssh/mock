@@ -41,7 +41,7 @@
   --mock-radius-xl: 20px;
   --mock-radius-pill: 9999px;
 
-  --mock-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  --mock-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
   --mock-transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -297,7 +297,7 @@ svg[class*="spine"] {
   background-color: var(--mock-bg-base) !important;
   border: 1px solid var(--mock-border) !important;
   border-radius: var(--mock-radius-xl) !important;
-  margin: 8px 0 8px 8px !important;
+  margin: 8px 8px 8px 8px !important;
   height: calc(100% - 16px) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25) !important;
@@ -455,7 +455,7 @@ svg[class*="spine"] {
   background-color: var(--mock-bg-sidebar) !important;
   border: 1px solid var(--mock-border) !important;
   border-radius: var(--mock-radius-xl) !important;
-  margin: 8px 8px 8px 8px !important;
+  margin: 8px 8px 8px 0 !important;
   height: calc(100% - 16px) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25) !important;

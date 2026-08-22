@@ -1,9 +1,5 @@
 <div align="center">
 
-  <img src="assets/banner.svg" alt="mock banner" width="100%" />
-
-  <br/><br/>
-
   <h1>mock</h1>
   
   <p>

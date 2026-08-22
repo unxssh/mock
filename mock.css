@@ -214,6 +214,17 @@ a[href="/channels/@me"] [class*="childWrapper_"] > svg {
   padding-bottom: 180px !important;
 }
 
+[class*="spine_"],
+[class*="spineBorder_"],
+[class*="spineCurved_"],
+[class*="spineIcon_"],
+.spine__5e434,
+.spine_c15230 {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
 .header__29444 {
   background-color: var(--mock-bg-sidebar) !important;
   border-bottom: 1px solid var(--mock-border-subtle) !important;

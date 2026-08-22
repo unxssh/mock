@@ -3,7 +3,7 @@
   <h1>mock</h1>
   
   <p>
-    <strong>a clean, minimal space gray dark theme for vesktop, vencord, and betterdiscord.</strong>
+    <strong>a clean, minimal rounded dark gray theme for vesktop, vencord, and betterdiscord.</strong>
   </p>
 
   <p>
@@ -27,19 +27,19 @@
 
 ## ✨ features
 
-- **space gray palette:** deep neutral titanium and dark gray tones (`#1e1f22`, `#17181a`, `#28292d`).
-- **rounded capsule inputs:** smooth curved textarea container and search bars.
-- **floating member island:** member list formatted as a floating card with clean edges and hidden scrollbar.
-- **subtle white borders:** soft translucent focus states and borders (`rgba(255, 255, 255, 0.12)`).
-- **sf pro typography:** clean system typography for enhanced readability.
-- **custom status indicators:** crisp minimal online, idle, dnd, and offline badges.
+- **discord gray palette:** classic dark gray discord tones (`#313338`, `#2b2d31`, `#1e1f22`, `#383a40`).
+- **rounded island layout:** smooth floating cards for guilds, channel sidebar, chat, and member list.
+- **capsule inputs:** clean rounded textarea container and pill search bars.
+- **hidden scrollbars:** distraction-free interface with scrollbars completely hidden.
+- **subtle borders:** soft minimal borders and translucent focus states.
+- **custom status indicators:** crisp status badges for online, idle, dnd, and offline.
 
 ---
 
 ## 📸 preview
 
 <div align="center">
-  <img src="assets/preview.png" alt="mock preview" width="95%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.5);" />
+  <img src="assets/preview.png" alt="mock preview" width="95%" style="border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.5);" />
 </div>
 
 ---
@@ -64,7 +64,6 @@ copy and paste the following line into your vesktop / vencord **quick css**:
 5. copy `mock.css` into your themes folder:
    - **linux:** `~/.config/vesktop/themes/`
    - **windows:** `%appdata%/vesktop/themes/` or `%appdata%/BetterDiscord/themes/`
-   - **macos:** `~/Library/Application Support/vesktop/themes/`
 6. enable **mock** in your themes list and reload with <kbd>Ctrl</kbd> + <kbd>R</kbd>.
 
 ---
@@ -80,11 +79,11 @@ you can easily customize colors and border radiuses at the top of `mock.css`:
 
 ```css
 :root {
-  --mock-bg-base: #1e1f22;
-  --mock-bg-sidebar: #17181a;
-  --mock-bg-guilds: #131315;
-  --mock-bg-card: #28292d;
-  --mock-bg-input: #292a2e;
+  --mock-bg-base: #313338;
+  --mock-bg-sidebar: #2b2d31;
+  --mock-bg-guilds: #1e1f22;
+  --mock-bg-card: #2b2d31;
+  --mock-bg-input: #383a40;
 
   --mock-radius-sm: 8px;
   --mock-radius-md: 12px;

@@ -110,7 +110,7 @@ select {
 
 .guilds_a4d4d9 {
   background-color: var(--mock-bg-guilds) !important;
-  border-right: 1px solid var(--mock-border) !important;
+  border-right: none !important;
 }
 
 .guilds_a4d4d9 [class*="wrapper_"] foreignObject {
@@ -214,15 +214,44 @@ a[href="/channels/@me"] [class*="childWrapper_"] > svg {
   padding-bottom: 180px !important;
 }
 
-[class*="spine_"],
-[class*="spineBorder_"],
-[class*="spineCurved_"],
-[class*="spineIcon_"],
+[class*="spine"],
+[class*="spine"] *,
+[class*="voiceUserList"] svg,
+[class*="voiceUserList"]::before,
+[class*="voiceUserList"]::after,
+[class*="voiceUsers"] svg,
+[class*="voiceUsers"]::before,
+[class*="voiceUsers"]::after,
+[class*="voiceUser"]::before,
+[class*="voiceUser"]::after,
+[class*="typeThread"]::before,
+[class*="typeThread"]::after,
+[class*="thread"]::before,
+[class*="thread"]::after,
+[class*="spineBorder"],
+[class*="spineCurved"],
+[class*="spineIcon"],
 .spine__5e434,
-.spine_c15230 {
+.spine_c15230,
+svg[class*="spine"] {
   display: none !important;
   opacity: 0 !important;
   visibility: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+  border: none !important;
+  stroke: none !important;
+  content: none !important;
+}
+
+[class*="sidebar_"] [class*="list_"],
+[class*="sidebar_"] [class*="voiceUserList"],
+[class*="sidebar_"] [class*="voiceUsers"],
+[class*="voiceUser_"],
+[class*="voiceUser_"] * {
+  border: none !important;
+  border-left: none !important;
+  border-right: none !important;
 }
 
 .header__29444 {

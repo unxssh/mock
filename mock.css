@@ -176,8 +176,9 @@ a[href="/channels/@me"] [class*="childWrapper_"] > svg {
 [class*="sidebar_"] {
   background-color: var(--mock-bg-sidebar) !important;
   border: 1px solid var(--mock-border) !important;
-  border-radius: var(--mock-radius-xl) !important;
-  margin: 6px 0 8px 8px !important;
+  border-left: none !important;
+  border-radius: 0 var(--mock-radius-xl) var(--mock-radius-xl) 0 !important;
+  margin: 6px 0 8px 0 !important;
   height: calc(100% - 14px) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25) !important;

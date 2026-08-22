@@ -233,6 +233,27 @@ a[href="/channels/@me"] [class*="childWrapper_"] > svg {
   background-color: var(--mock-bg-base) !important;
 }
 
+.chatContent_a7d72e ::-webkit-scrollbar,
+[class*="chatContent_"] ::-webkit-scrollbar,
+.messagesWrapper_e2e187 ::-webkit-scrollbar,
+[class*="messagesWrapper_"] ::-webkit-scrollbar,
+[data-list-id="chat-messages"]::-webkit-scrollbar,
+[class*="chat_"] [class*="scroller_"]::-webkit-scrollbar {
+  display: none !important;
+  width: 0px !important;
+  height: 0px !important;
+}
+
+.chatContent_a7d72e,
+[class*="chatContent_"],
+.messagesWrapper_e2e187,
+[class*="messagesWrapper_"],
+[data-list-id="chat-messages"],
+[class*="chat_"] [class*="scroller_"] {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
 .title_a7d72e {
   background-color: var(--mock-bg-base) !important;
   border-bottom: 1px solid var(--mock-border) !important;

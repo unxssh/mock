@@ -174,27 +174,19 @@ a[href="/channels/@me"] [class*="childWrapper_"] > svg {
 
 .sidebar_a4d4d9,
 [class*="sidebar_"] {
-  background: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
+  background-color: var(--mock-bg-sidebar) !important;
+  border: 1px solid var(--mock-border) !important;
+  border-radius: var(--mock-radius-xl) !important;
   margin: 6px 0 8px 8px !important;
   height: calc(100% - 14px) !important;
-  display: flex !important;
-  flex-direction: column !important;
-  gap: 8px !important;
-  overflow: visible !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25) !important;
 }
 
 .container__2637a,
 [class*="sidebar_"] > [class*="container_"],
 [class*="sidebar_"] > nav {
-  background-color: var(--mock-bg-sidebar) !important;
-  border: 1px solid var(--mock-border) !important;
-  border-radius: var(--mock-radius-xl) !important;
-  overflow: hidden !important;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25) !important;
-  flex: 1 1 auto !important;
-  height: auto !important;
+  background-color: transparent !important;
 }
 
 .sidebar_a4d4d9 ::-webkit-scrollbar,
@@ -216,6 +208,10 @@ a[href="/channels/@me"] [class*="childWrapper_"] > svg {
 [class*="guilds_"] {
   scrollbar-width: none !important;
   -ms-overflow-style: none !important;
+}
+
+[class*="sidebar_"] [class*="scroller_"] {
+  padding-bottom: 24px !important;
 }
 
 .header__29444 {
@@ -252,27 +248,30 @@ a[href="/channels/@me"] [class*="childWrapper_"] > svg {
 
 .panels_a4d4d9 {
   background-color: var(--mock-bg-sidebar) !important;
-  border: 1px solid var(--mock-border) !important;
-  border-radius: var(--mock-radius-xl) !important;
-  overflow: hidden !important;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25) !important;
-  flex: 0 0 auto !important;
-  margin: 0 !important;
+  border-top: 1px solid var(--mock-border) !important;
+  z-index: 10 !important;
 }
 
 .panels_a4d4d9 .container_ca50a9 {
   padding: 6px 10px !important;
-  margin: 0 !important;
-  border-radius: 0 !important;
-  border: none !important;
-  background: transparent !important;
+  margin: 4px 8px 6px 8px !important;
+  border-radius: var(--mock-radius-lg) !important;
+  border: 1px solid var(--mock-border-subtle) !important;
+  background: rgba(255, 255, 255, 0.04) !important;
+  transition: var(--mock-transition) !important;
 }
 
-.panels_a4d4d9 [class*="wrapper_"][class*="connection_"],
-.panels_a4d4d9 [class*="container_"][class*="panel_"],
-.panels_a4d4d9 [class*="activityPanel_"] {
-  border-bottom: 1px solid var(--mock-border-subtle) !important;
-  background: transparent !important;
+.panels_a4d4d9 .container_ca50a9:hover {
+  background: rgba(255, 255, 255, 0.07) !important;
+  border-color: var(--mock-border) !important;
+}
+
+.panels_a4d4d9 [class*="wrapper_"][class*="connection_"] {
+  border-radius: var(--mock-radius-lg) !important;
+  border: 1px solid var(--mock-border-subtle) !important;
+  background: rgba(255, 255, 255, 0.04) !important;
+  margin: 6px 8px 4px 8px !important;
+  padding: 4px !important;
 }
 
 .chat_a7d72e,
